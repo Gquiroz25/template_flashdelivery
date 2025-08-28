@@ -1,0 +1,618 @@
+# Copyright (C) 2021 triopsi
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ice Cold 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/ice-cold\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-02-17T13:31:06+01:00\n"
+"PO-Revision-Date: 2021-02-24 08:14+0100\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Domain: ice-cold\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+
+#. Theme Name of the theme
+msgid "Ice Cold"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://wiki.profoxi.de"
+msgstr ""
+
+#. Description of the theme
+msgid "Webseitenlayout für Ice-Cold. Page/Shop/Blog/Frontpage Layout. Bug melden: info@triopsi.com"
+msgstr ""
+
+#. Author of the theme
+msgid "triopsi"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://wiki.profoxi.de/ueber-mich/"
+msgstr ""
+
+#: 404.php:33
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Diese Seite konnte nicht gefunden werden."
+
+#: 404.php:35
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Es sieht so aus, als würde die Suche nichts finden. Vielleicht danach suchen?"
+
+#: comments.php:28
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Dieser Beitrag ist mit einem Passwort geschützt. Bitte gebe das Passwort ein, um Kommentare zu sehen."
+
+#: comments.php:44
+msgid "One comment"
+msgstr "Ein Kommentar"
+
+#. translators: %s: comment count number.
+#: comments.php:50
+msgctxt "Comments title"
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s Kommentar"
+msgstr[1] "%s Kommentare"
+
+#: comments.php:65
+msgid "Reply"
+msgstr "Antworten"
+
+#: comments.php:73
+msgid "Previous"
+msgstr "Vorherige"
+
+#: comments.php:74
+msgid "Next"
+msgstr "Nächste"
+
+#: comments.php:80
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: footer.php:32
+msgid "Footer Social Links Menu"
+msgstr "Footer Social Links Menü"
+
+#: functions.php:54 inc/default-starter-pack.php:166
+msgid "Top Menu"
+msgstr "Oberes Menü"
+
+#: functions.php:55 inc/default-starter-pack.php:182
+msgid "Social Links Menu"
+msgstr "Social Links Menü"
+
+#: functions.php:132
+msgid "Top Header Sidebar"
+msgstr "Obere Seitenleiste"
+
+#: functions.php:134
+msgid "Add widgets here to appear in your sidebar on all pages."
+msgstr "Fügen Sie hier Widgets hinzu, die auf allen Seiten in Ihrer Seitenleiste angezeigt werden."
+
+#: functions.php:144
+msgid "Branding Sidebar"
+msgstr ""
+
+#: functions.php:146
+msgid "Add widgets here to appear in your branding content"
+msgstr "Fügen Sie hier Widgets hinzu, um sie in Ihrem Branding-Inhalt anzuzeigen"
+
+#: functions.php:156 sidebar.php:26
+msgid "Blog Sidebar"
+msgstr "Blog Seitenleiste"
+
+#: functions.php:158
+msgid "Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr ""
+"Fügen Sie hier Widgets hinzu, die in Ihrer Seitenleiste auf Blog-Posts und Archivseiten angezeigt werden."
+
+#: functions.php:168
+msgid "Footer 1"
+msgstr "Fußbereich 1"
+
+#: functions.php:170 functions.php:182 functions.php:194 functions.php:206
+msgid "Add widgets here to appear in your footer."
+msgstr "Fügen Sie hier Widgets hinzu, die in Ihrer Fußzeile angezeigt werden sollen."
+
+#: functions.php:180
+msgid "Footer 2"
+msgstr "Fußbereich 2"
+
+#: functions.php:192
+msgid "Footer 3"
+msgstr "Fußbereich 3"
+
+#: functions.php:204
+msgid "Footer 4"
+msgstr "Fußbereich 4"
+
+#: functions.php:216
+msgid "Additional Bottom Sidebar"
+msgstr "Zusätzliche untere Seitenleiste"
+
+#: functions.php:218
+msgid "Add widgets here to appear in your sidebar on the bottom of your blog and pages."
+msgstr ""
+"Fügen Sie hier Widgets hinzu, die in Ihrer Seitenleiste unten auf Ihrer Seite oder Blog angezeigt werden."
+
+#. translators: %s: Name of current post.
+#: functions.php:251
+msgid "Continue reading %s"
+msgstr "Weiterlesen"
+
+#. translators: %s: Post title.
+#: functions.php:335
+msgid "[Edit %s]"
+msgstr "[Bearbeiten %s]"
+
+#: functions.php:365
+msgid "Posted on"
+msgstr "Veröffentlicht am"
+
+#. translators: %s: number of panel.
+#: functions.php:460
+msgid "Front Page Section %s Placeholder"
+msgstr "Titelseitenbereich %s Platzhalter"
+
+#. translators: %s: number of panel.
+#: functions.php:505
+msgid "Front Page Section %s Up Placeholder"
+msgstr "Oberer Titelseitenbereich %s Platzhalter"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "Zum Inhalt springen"
+
+#. translators: %s: WordPress Version.
+#: inc/back-compat.php:38 inc/back-compat.php:55 inc/back-compat.php:74
+msgid ""
+"This theme  requires at least WordPress version 5.0. You are running version %s. Please upgrade and try "
+"again."
+msgstr ""
+"Dieses Theme benötigt mindestens WordPress Version 5.0. Sie führen die Version% s aus. Bitte "
+"aktualisieren Sie und versuchen Sie es erneut."
+
+#: inc/breadcrumb-function.php:49
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumb-function.php:192
+msgid "Result for your search"
+msgstr "Ergebnis für Ihre Suche"
+
+#: inc/breadcrumb-function.php:197
+msgid "Result for your keywords"
+msgstr "Ergebnis für Ihre Suchworte"
+
+#: inc/breadcrumb-function.php:202
+msgid "Error 404"
+msgstr ""
+
+#: inc/breadcrumb-function.php:210
+msgid "Site"
+msgstr "Seite"
+
+#: inc/custom-header.php:47
+msgid "Default Header Winter"
+msgstr ""
+
+#: inc/custom-header.php:52
+msgid "Default Header Image Computer"
+msgstr ""
+
+#: inc/custom-header.php:57
+msgid "Default Header Image Fog"
+msgstr ""
+
+#: inc/custom-header.php:62
+msgid "Default Header Image Road"
+msgstr ""
+
+#: inc/customize/customize-color.php:41
+msgid "Color Scheme"
+msgstr "Farbschema"
+
+#: inc/customize/customize-color.php:43
+msgid "Light"
+msgstr "Hell"
+
+#: inc/customize/customize-color.php:44
+msgid "Dark"
+msgstr "Dunkel"
+
+#: inc/customize/customize-color.php:45
+msgid "White"
+msgstr "Weiß"
+
+#: inc/customize/customize-color.php:63
+msgid "Main Color"
+msgstr "Hauptfarbe"
+
+#: inc/customize/customize-color.php:64
+msgid "Main color for everything. Title, Links , Borders on pages or posts."
+msgstr "Hauptfarbe für alles. Titel, Links, Rahmen auf Seiten oder Posts."
+
+#: inc/customize/customize-color.php:85
+msgid "Header top border size"
+msgstr "Größe des oberen Randes der Kopfzeile"
+
+#: inc/customize/customize-color.php:86 inc/customize/customize-color.php:110
+msgid "Choose a border size"
+msgstr "Wählen Sie eine Rahmengröße"
+
+#: inc/customize/customize-color.php:109
+msgid "Header bottom border size"
+msgstr "Größe des unteren Randes der Kopfzeile"
+
+#: inc/customize/customize-color.php:130
+msgid "Footer Background Color"
+msgstr "Fußzeile Hintergrundfarbe"
+
+#: inc/customize/customize-color.php:131
+msgid "Background color"
+msgstr "Hintergrundfarbe"
+
+#: inc/customize/customize-color.php:148
+msgid "Footer Text Color"
+msgstr "Fußzeilentextfarbe"
+
+#: inc/customize/customize-color.php:149
+msgid "Text color"
+msgstr "Textfarbe"
+
+#: inc/customize/customize-header-media.php:42
+msgid "Image blur effect"
+msgstr "Bildunschärfeeffekt"
+
+#: inc/customize/customize-header-media.php:43
+msgid "Choose a size of the blur effect. (0=No Blur)"
+msgstr "Wählen Sie eine Größe für den Unschärfeeffekt. (0 = keine Unschärfe)"
+
+#: inc/customize/customize-header-media.php:66
+msgid "Full header size for image/video?"
+msgstr "Volle Headergröße für Bild / Video?"
+
+#: inc/customize/customize-header-media.php:67
+msgid "The image or video fill the first view on the website."
+msgstr "Das Bild oder Video füllt die erste Ansicht auf der Website."
+
+#: inc/customize/customize-header-media.php:85
+msgid "Enable a grid on the picture or video"
+msgstr "Aktivieren Sie ein Raster für das Bild oder Video"
+
+#: inc/customize/customize-header-media.php:86
+msgid "A grid is on the picture or video"
+msgstr "Auf dem Bild oder Video befindet sich ein Raster"
+
+#: inc/customize/customize-header-media.php:104
+msgid "Enable overlay color on the picture or video"
+msgstr "Aktivieren Sie die Überlagerungsfarbe für das Bild oder Video"
+
+#: inc/customize/customize-header-media.php:105
+msgid "Here you can definied a overlay color"
+msgstr "Hier können Sie eine Überlagerungsfarbe definieren"
+
+#: inc/customize/customize-header-media.php:120
+msgid "Grid Color"
+msgstr "Rasterfarbe"
+
+#: inc/customize/customize-header-media.php:121
+msgid "Choose a overlay color"
+msgstr "Wählen Sie eine Überlagerungsfarbe"
+
+#: inc/customize/customize-header-media.php:141
+msgid "Opacity overlay color"
+msgstr "Deckkraftüberlagerungsfarbe"
+
+#: inc/customize/customize-header-media.php:142
+msgid "Choose a opacity for the overlay color"
+msgstr "Wählen Sie eine Deckkraft für die Überlagerungsfarbe"
+
+#: inc/customize/customize-homepage-settings.php:42
+msgid "Page Layout Frontpage"
+msgstr "Seitenlayout-Startseite"
+
+#: inc/customize/customize-homepage-settings.php:45
+msgid "Page layout"
+msgstr "Seitenlayout"
+
+#: inc/customize/customize-homepage-settings.php:47 inc/customize/customize-homepage-settings.php:187
+#: inc/customizer.php:103 inc/customizer.php:137
+msgid "One Column"
+msgstr "Eine Spalte"
+
+#: inc/customize/customize-homepage-settings.php:48 inc/customize/customize-homepage-settings.php:188
+#: inc/customizer.php:104 inc/customizer.php:138
+msgid "Two Column"
+msgstr "Zwei Spalten"
+
+#: inc/customize/customize-homepage-settings.php:67
+msgid "Show Heading on the front page"
+msgstr "Überschrift auf der Titelseite anzeigen"
+
+#: inc/customize/customize-homepage-settings.php:70
+msgid "Show Heading on the front page."
+msgstr "Überschrift auf der Titelseite anzeigen."
+
+#: inc/customize/customize-homepage-settings.php:72
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/customize/customize-homepage-settings.php:73
+msgid "No"
+msgstr "Nein"
+
+#: inc/customize/customize-homepage-settings.php:92
+msgid "Post per page on the blog section"
+msgstr "Beiträge pro Seite im Blog-Bereich"
+
+#: inc/customize/customize-homepage-settings.php:95
+msgid "Show recent blog posts."
+msgstr "Aktuelle Blog-Beiträge anzeigen."
+
+#. translators: %d: The front page section number.
+#: inc/customize/customize-homepage-settings.php:117
+msgid "Front Page Section %d Content"
+msgstr "Titelseitenabschnitt %d Inhalt"
+
+#: inc/customize/customize-homepage-settings.php:118 inc/customize/customize-homepage-settings.php:151
+msgid ""
+"Select pages to feature in each area from the dropdowns. Add an image to a section by setting a featured "
+"image in the page editor. Empty sections will not be displayed."
+msgstr ""
+"Wählen Sie aus den Dropdown-Listen Seiten aus, die in jedem Bereich angezeigt werden sollen. Fügen Sie "
+"einem Abschnitt ein Bild hinzu, indem Sie im Seiteneditor ein ausgewähltes Bild festlegen. Leere "
+"Abschnitte werden nicht angezeigt."
+
+#. translators: %d: The front page section number.
+#: inc/customize/customize-homepage-settings.php:150
+msgid "Front Page Up Section for %d Panel"
+msgstr "Titelseitenabschnitt Oberer %d Inhalt"
+
+#: inc/customize/customize-homepage-settings.php:182 inc/customize/customize-homepage-settings.php:185
+msgid "Blog/Site page layout"
+msgstr "Layout der Blog/Seite Ansicht"
+
+#: inc/customize/customize-homepage-settings.php:205
+msgid "Show the preloader animation?"
+msgstr "Preloader-Animation anzeigen?"
+
+#: inc/customize/customize-homepage-settings.php:207
+msgid "Show a gif animation before the site loads end."
+msgstr "Zeigt eine GIF-Animation an, bevor die Seite geladen wird."
+
+#: inc/customize/customize-nav.php:32
+msgid "Navigation Options"
+msgstr "Navigationsoptionen"
+
+#: inc/customize/customize-nav.php:49
+msgid "Navigation Fixed"
+msgstr ""
+
+#: inc/customize/customize-nav.php:53 inc/customizer.php:119
+msgid "fixed-top"
+msgstr ""
+
+#: inc/customize/customize-nav.php:54 inc/customizer.php:120
+msgid "fixed-bottom"
+msgstr ""
+
+#: inc/customize/customize-nav.php:55 inc/customizer.php:121
+msgid "sticky-top"
+msgstr ""
+
+#: inc/customize/customize-nav.php:56 inc/customizer.php:122
+msgid "none"
+msgstr ""
+
+#: inc/customize/customize-nav.php:58
+msgid "Choose Navigation Position"
+msgstr "Wählen Sie Navigationsposition"
+
+#: inc/customize/customize-nav.php:77
+msgid "Opacity of the menu"
+msgstr "Deckkraft des Menüs"
+
+#: inc/customize/customize-nav.php:78
+msgid "Choose a opacity"
+msgstr "Wählen Sie eine Deckkraft"
+
+#: inc/customize/customize-page.php:32
+msgid "Page settings"
+msgstr "Seiteneinstellungen"
+
+#: inc/customize/customize-page.php:49
+msgid "Show the thumbnail on the page?"
+msgstr "Miniaturbild auf der Seite anzeigen?"
+
+#: inc/customize/customize-page.php:51
+msgid "Show a thumbnail on the page."
+msgstr "Zeigt eine Miniaturansicht auf der Seite an."
+
+#: inc/customize/customize-post.php:32
+msgid "Post settings"
+msgstr "Post-Einstellungen"
+
+#: inc/customize/customize-post.php:49
+msgid "Show author information box?"
+msgstr "Autoreninformationsfeld anzeigen?"
+
+#: inc/customize/customize-post.php:51
+msgid "Show the author information box. The name, description and the social media channels as link."
+msgstr ""
+"Zeigen Sie das Autoreninformationsfeld an. Der Name, die Beschreibung und die Social-Media-Kanäle als "
+"Link."
+
+#: inc/customize/customize-post.php:73
+msgid "Show the excerpt on the blog site?"
+msgstr "Den Auszug auf der Blog-Site anzeigen?"
+
+#: inc/customize/customize-post.php:75
+msgid "Show the excerpt or the full content on the blog site?"
+msgstr "Den Auszug oder den vollständigen Inhalt auf der Blog-Site anzeigen?"
+
+#: inc/default-starter-pack.php:99
+msgid "News"
+msgstr ""
+
+#: inc/default-starter-pack.php:107
+msgid "Forest Image"
+msgstr ""
+
+#: inc/default-starter-pack.php:111
+msgid "Fog Image"
+msgstr ""
+
+#: inc/default-starter-pack.php:115
+msgid "Snow Image"
+msgstr ""
+
+#: inc/default-starter-pack.php:119
+msgid "Contact Image"
+msgstr ""
+
+#: inc/default-starter-pack.php:123
+msgid "Road Image"
+msgstr ""
+
+#: inc/default-starter-pack.php:127
+msgid "Logo"
+msgstr ""
+
+#: inc/icon-functions.php:27
+msgid "Please define default parameters in the form of an array."
+msgstr "Bitte definieren Sie Standardparameter in Form eines Arrays."
+
+#: inc/icon-functions.php:32
+msgid "Please define an SVG icon filename."
+msgstr "Bitte definieren Sie einen SVG-Symbol-Dateinamen."
+
+#. translators: used between list items, there is a space after the comma.
+#: inc/template-extends.php:29 inc/template-extends.php:33
+msgid ", "
+msgstr ", "
+
+#: inc/template-extends.php:48
+msgid "Categories"
+msgstr "Kategorien"
+
+#: inc/template-extends.php:54
+msgid "Tags"
+msgstr "Stichworte"
+
+#: inc/woocommerce-functions.php:89
+msgid "View your shopping cart"
+msgstr "Einkaufswagen ansehen"
+
+#: index.php:51 search.php:74
+msgid "Previous page"
+msgstr "Vorherige Seite"
+
+#: index.php:52 search.php:75
+msgid "Next page"
+msgstr "Nächste Seite"
+
+#: index.php:53 search.php:76
+msgid "Page"
+msgstr "Seite"
+
+#. translators: %s: search term.
+#: search.php:38
+msgid "Search Results for: \"%s\""
+msgstr "Suchergebnisse für: \"%s\""
+
+#. translators: %d: the number of search results.
+#: search.php:47
+msgid "We found %d result for your search."
+msgid_plural "We found %d results for your search."
+msgstr[0] "Wir haben %d Ergebnis für Ihre Suche gefunden."
+msgstr[1] "Wir haben %d Ergebnisse für Ihre Suche gefunden."
+
+#: search.php:59 template-parts/post/content-none.php:25
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: search.php:83
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+"Entschuldigung, aber nichts stimmte mit Ihren Suchbegriffen überein. Bitte versuchen Sie es erneut mit "
+"verschiedenen Schlüsselwörtern."
+
+#: searchform.php:29
+msgctxt "label"
+msgid "Search for:"
+msgstr "Suchen nach:"
+
+#: searchform.php:31
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Suche &hellip;"
+
+#: template-parts/footer/footer-widgets.php:40
+msgid "Footer"
+msgstr "Fusszeile"
+
+#. translators: %s: Theme URL.
+#: template-parts/footer/site-info.php:35
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. translators: 1: Theme name, 2: Theme author.
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s von %2$s."
+
+#: template-parts/footer/site-info.php:45
+msgid "Copyright All Rights Reserved"
+msgstr "Copyright alle Rechte vorbehalten"
+
+#: template-parts/navigation/navigation-top.php:42
+msgid "Toggle navigation"
+msgstr ""
+
+#. translators: %s: Post Link
+#. translators: %s: Post Title
+#: template-parts/page/content-front-page-panels-two.php:53
+#: template-parts/page/content-front-page-panels-two.php:71
+#: template-parts/page/content-front-page-panels.php:59 template-parts/page/content-front-page.php:45
+#: template-parts/post/content.php:85 template-parts/post/content.php:96
+msgid "Continue reading %1"
+msgstr "Weiterlesen %1"
+
+#: template-parts/page/content-front-page-panels.php:103
+#: template-parts/page/content-front-page-panels.php:104
+msgid "All posts"
+msgstr "Alle Beiträge"
+
+#: template-parts/page/content-page.php:39 template-parts/post/content.php:104
+msgid "Pages:"
+msgstr "Seite:"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/post/content-none.php:37
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Bereit Deinen ersten Post zu veröffentlichen? <a href=\"%1$s\">Fang hier an</a>."
+
+#: template-parts/post/content-none.php:51
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Es scheint, dass wir nicht finden können, wonach Sie suchen. Vielleicht kann die Suche helfen."
+
+#. translators: %: page number.
+#: template-parts/post/content.php:109
+msgid "Page %"
+msgstr "Seite %"
+
+#: woocommerce/checkout/form-checkout.php:30
+msgid "You must be logged in to checkout."
+msgstr "Sie müssen an der Kasse angemeldet sein."
+
+#: woocommerce/checkout/form-checkout.php:58
+msgid "Your order"
+msgstr "Deine Bestellung"

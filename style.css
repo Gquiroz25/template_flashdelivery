@@ -1,0 +1,2514 @@
+/*
+
+Theme Name: Dobleku
+
+Theme URI: https://www.dobleku.cl/
+
+Author: Gonzalo
+
+Author URI: https://www.dobleku.cl/
+
+Description: A simple WordPress Theme. This Theme are full responsive and are maked with the popular Bootstrap library. Flexible sidebars and footers. Perfect for a blog, portfolio or a frontpage. With parallax effects on frontpage.This theme support WooCommerce.
+
+Version: 1.0.9
+
+Requires at least: 5.0
+
+Requires PHP: 5.6
+
+Tested up to: 5.7
+
+License: GNU General Public License v3 or later
+
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+
+Text Domain: ice-cold
+
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-colors, custom-header, custom-background, featured-images, custom-menu, custom-logo, editor-style, footer-widgets, sticky-post, theme-options, threaded-comments, translation-ready, blog, portfolio, e-commerce
+
+
+
+Dobleku WordPress Theme, Copyright 2020 Triopsi
+
+Dobleku is distributed under the terms of the GNU GPL
+
+
+
+Resources
+
+
+
+Bootstrap
+
+Bootstrap v4.6.0 (https://getbootstrap.com/)
+
+Copyright 2011-2020 The Bootstrap Authors
+
+Copyright 2011-2020 Twitter, Inc.
+
+Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+
+
+
+Font Awesome
+
+Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
+
+License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+
+Font Awesome Icons — CC BY 4.0 License (see https://fontawesome.com/license/free)
+
+Font Awesome Fonts — SIL OFL 1.1 License (see https://fontawesome.com/license/free)
+
+Font Awesome Code — MIT License (see https://fontawesome.com/license/free)
+
+
+
+animate
+
+animate.css - 4.1.1 - https://animate.style/
+
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+
+
+Bundled header images
+
+License: CC0 1.0 Universal (CC0 1.0)
+
+Default images from https://pickupimage.com
+
+
+
+Name: snow-winter.jpg
+
+URL: https://pickupimage.com/download-photos/Fantastic-winter-landscape/2330479
+
+License: CC0 1.0 Universal (CC0 1.0)
+
+
+
+Name: winter-road.jpg
+
+URL: https://pickupimage.com/download-photos/Winter-Snow-Road-Central-Park-New-York/2321738
+
+License: CC0 1.0 Universal (CC0 1.0)
+
+
+
+Name: road-snow.jpg
+
+URL: https://pickupimage.com/download-photos/winter-trees-on-snow/2324165
+
+License: CC0 1.0 Universal (CC0 1.0)
+
+
+
+Name: train-snow.jpg
+
+URL: https://pickupimage.com/download-photos/Snow-covered-train-station-in-Watlington-railway-station/2329145
+
+License: CC0 1.0 Universal (CC0 1.0)
+
+
+
+Name: computer-office.jpg
+
+URL: https://pickupimage.com/download-photos/Black-framed-upside-down-glasses-on-the-computer-keyboard/2338711
+
+License: CC0 1.0 Universal (CC0 1.0)
+
+
+
+Name: fog-landscape.jpg
+
+URL: https://pickupimage.com/download-photos/Tundra-Wilderness-Alaska/2324539
+
+License: CC0 1.0 Universal (CC0 1.0)
+
+
+
+Name: loader-blue.gif
+
+self-made picture by @triopsi
+
+License: CC0 1.0 Universal (CC0 1.0)
+
+
+
+Name: grid-mask.png
+
+self-made picture by @triopsi
+
+License: CC0 1.0 Universal (CC0 1.0)
+
+
+
+Attention!!!
+
+This css file a placeholder! The right css file find you under assets/css/site-css.css!!!!
+
+DO NOT TOUCH THIS CSS FILE!!!
+
+*/
+.carro {
+    width: 59%;
+    margin: 0 auto;
+}
+#forms{
+    margin-top: 182px;
+    margin-right: 99px;
+    padding-bottom: 0px !important;
+}
+input.enviar {
+    background: #989898;
+}
+.sub_text p {
+	background-color: yellow;
+	color: black;
+	font-size: 20px;
+	padding: 10px;
+	margin-bottom: 0 !important;
+}
+.sub_text2 p {
+    color: white;
+    font-size: 14px;
+    padding: 0;
+}
+.sub_text2 h1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+input {
+	padding: 12px;
+	margin-bottom: 0 !important;
+
+}
+input.tel {
+    background-color: #000000 !important;
+    color: #ffffff;
+    font-size: 11px;
+    font-family: FANTASY;
+}
+input.wpcf7-form-control {
+    background-color: #fff !important;
+    color: #000 !important;
+    font-size: 11px !important;
+    font-family: sans-serif;
+    margin-top: 7px;
+    border-radius: 50px !important;
+    width: 100%;
+}
+input.emp {
+    background-color: #fff !important;
+    color: #000 !important;
+    font-size: 11px !important;
+    font-family: sans-serif;
+    margin-top: 7px;
+    border-radius: 50px !important;
+    width: 47% !important;
+    float: left;
+    margin-right: 10px;
+}
+input.urlemp {
+    background-color: #fff !important;
+    color: #000 !important;
+    font-size: 11px !important;
+    font-family: sans-serif;
+    margin-top: 7px;
+    border-radius: 50px !important;
+    width: 50% !important;
+    float: left;
+}
+
+input.carg {
+    background-color: #000000 !important;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: FANTASY;
+}
+
+input.name {
+    background-color: #000000 !important;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: FANTASY;
+}
+input.mail {
+    background-color: #000000 !important;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: FANTASY;
+}
+.sl
+.slick-dotted.slick-slider {
+
+    margin-bottom: 30px !important;
+
+    margin-right: 370px !important;
+
+    margin-left: 370px !important;
+
+}
+
+nav #site-navigation {
+
+    min-height: 0px;
+
+    padding: 0px;
+
+    position: fixed;
+
+    width: 100%;
+
+    margin-top: -38px;
+
+}
+
+footer .dire {
+
+    background: url(https://flashdelivery.cl/flash4/img/mapa.png);
+
+    background-repeat: no-repeat;
+
+    background-size: 22px;
+
+    margin-bottom: 12px;
+
+    font-size: 12px;
+	
+	padding-left: 31px !important;
+
+}
+.navbar-nav li.menu-item-570 {
+    position: relative;
+    display: block;
+    float: left;
+    padding: 10px 0;
+    margin-right: 20px;
+    font-style: italic !important;
+}
+
+
+footer .reloj {
+
+    background: url(https://flashdelivery.cl/flash4/img/reloj.png);
+
+    background-repeat: no-repeat;
+
+    padding-left: 37px;
+
+    background-size: 22px;
+
+    margin-bottom: 12px;
+
+    font-size: 12px;
+
+}
+
+footer .tele {
+
+    background: url(https://flashdelivery.cl/flash4/img/tele.png);
+
+    background-repeat: no-repeat;
+
+    background-size: 22px;
+
+    margin-bottom: 12px;
+
+    font-size: 12px;
+	
+	padding-left: 34px !important;
+
+}
+
+.post-15 li.caja {
+
+    background: url(https://flashdelivery.cl/img/caja.png);
+
+    background-repeat: no-repeat;
+
+    padding-left: 83px;
+
+    background-size: 62px;
+
+    font-size: 15px;
+
+    text-align: justify;
+
+    color: #fff;
+
+}
+
+.post-15 li.mail {
+
+    background: url(https://flashdelivery.cl/img/mail.png);
+
+    background-repeat: no-repeat;
+
+    padding-left: 83px;
+
+    background-size: 62px;
+
+    font-size: 15px;
+
+    text-align: justify;
+
+    color: #fff;
+
+}
+
+.post-15 ::marker {
+
+    display: none !important;
+
+    font-size: 0px !important;
+
+}
+
+#forms {
+
+    position: absolute !important;
+    z-index: 9 !important;
+    right: 0 !important;
+    width: 365px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 13px;
+    height: auto;
+    border: 1px solid #ffffff;
+
+}
+#forms p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.wpcf7-form-control [type=submit] {
+    -webkit-appearance: button;
+    margin-top: 10px !important;
+}
+#forms span, input {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 14px;
+}
+#forms br {
+    display: none;
+}
+#forms br {
+    margin-bottom: 5px !important;
+}
+
+#forms textarea {
+    background-color: #fff !important;
+    color: #000 !important;
+    font-size: 11px !important;
+    font-family: sans-serif;
+    height: 77px;
+    margin-top: 8px;
+    border-radius: 14px !important;
+}
+
+#forms .todo_chile img {
+
+	    width: 270px;
+
+    margin: auto;
+
+    display: block;
+
+}
+
+.ico1 {
+
+	    text-align: center;
+
+}
+
+footer .img_footer img {
+
+	 width: 110px  !important;
+
+}
+
+.post-16 h1 {
+
+      font-size: 32px;
+
+    padding-bottom: 40px;
+
+}
+
+.ico1 p {
+
+   margin: 0 !important;
+
+}
+
+.ico1 img {
+
+	width: 99px;
+
+    margin: 20px;
+
+}
+
+.trenner-panel, .site-footer {
+
+    border-top: 0px solid #186ca0 !important;
+
+}
+
+.texto_serv1 p {
+
+    color: #fff;
+
+    font-weight: 600;
+
+    margin-bottom: 0 !important;
+
+}
+
+.texto_serv1 {
+
+    position: relative;
+
+   -webkit-transition: width 2s ease;
+
+    -moz-transition: width 2s ease;
+
+    -ms-transition: width 2s ease;
+
+    -o-transition: width 2s ease;
+
+    transition: width 2s ease;
+
+}
+
+.texto_serv1:hover {
+
+    position: relative;
+
+   -webkit-transition: width 2s ease;
+
+    -moz-transition: width 2s ease;
+
+    -ms-transition: width 2s ease;
+
+    -o-transition: width 2s ease;
+
+    transition: width 2s ease;
+
+}
+
+.texto_serv2 p {
+
+    color: #fff;
+
+    font-weight: 600;
+
+    margin-bottom: 0 !important;
+
+}
+
+.texto_serv2 {
+
+    position: relative;
+
+   -webkit-transition: width 2s ease;
+
+    -moz-transition: width 2s ease;
+
+    -ms-transition: width 2s ease;
+
+    -o-transition: width 2s ease;
+
+    transition: width 2s ease;
+
+}
+
+.texto_serv2:hover {
+
+    position: relative;
+
+   -webkit-transition: width 2s ease;
+
+    -moz-transition: width 2s ease;
+
+    -ms-transition: width 2s ease;
+
+    -o-transition: width 2s ease;
+
+    transition: width 2s ease;
+
+}
+
+.texto_serv3 p {
+
+    color: #fff;
+
+    font-weight: 600;
+
+    margin-bottom: 0 !important;
+
+}
+
+.texto_serv3 {
+
+    position: relative;
+
+   -webkit-transition: width 2s ease;
+
+    -moz-transition: width 2s ease;
+
+    -ms-transition: width 2s ease;
+
+    -o-transition: width 2s ease;
+
+    transition: width 2s ease;
+
+}
+
+.texto_serv3:hover {
+
+    position: relative;
+
+   -webkit-transition: width 2s ease;
+
+    -moz-transition: width 2s ease;
+
+    -ms-transition: width 2s ease;
+
+    -o-transition: width 2s ease;
+
+    transition: width 2s ease;
+
+}
+
+.texto_serv1 img {
+
+    width: 51px;
+
+    filter: invert(1);
+
+    margin-bottom: 20px;
+
+}
+
+.texto_serv2 img {
+
+    width: 51px;
+
+    filter: invert(1);
+
+    margin-bottom: 20px;
+
+}
+
+.texto_serv3 img {
+
+    width: 51px;
+
+    filter: invert(1);
+
+    margin-bottom: 20px;
+
+}
+
+.slider2 {
+
+  position: relative;
+
+}
+
+.banner h1{
+
+  position: absolute;
+
+
+
+}
+
+.servicio1 {
+
+      position: relative;
+
+        padding-top: 49px;
+
+            transition: 0.5s;
+
+
+
+}
+
+.servicio1:hover {
+
+    position: relative;
+
+    padding-top: 49px;
+
+    transition: 0.5s;
+
+    filter: grayscale(0.6);
+
+    opacity: 0.7;
+
+}
+
+.servicio2 {
+
+   position: relative;
+
+     padding-top: 49px;
+
+                 transition: 0.5s;
+
+
+
+}
+
+.servicio2:hover {
+
+    position: relative;
+
+    padding-top: 49px;
+
+    transition: 0.5s;
+
+    filter: grayscale(0.6);
+
+    opacity: 0.7;
+
+}
+
+.servicio3 {
+
+      position: relative;
+
+        padding-top: 49px;
+
+                    transition: 0.5s;
+
+           
+
+}
+
+.servicio3:hover {
+
+    position: relative;
+
+    padding-top: 49px;
+
+    transition: 0.5s;
+
+    filter: grayscale(0.6);
+
+    opacity: 0.7;
+
+}
+
+.texto_flash {
+
+    width: 100%;
+
+    height: 70px;
+
+    position: absolute;
+
+    bottom: 0;
+
+    padding-top: 5px;
+
+    background-color: rgb(0,0,0,0.4);
+
+
+
+}
+
+
+
+.texto_flash h3 {
+
+    margin: 0;
+
+    font-size: 19px;
+
+    padding-left: 35px;
+
+    font-family: arial;
+
+    font-style: italic;
+
+    font-weight: 700;
+
+    padding: 9px;
+
+    text-align: left;
+
+    padding-left: 70px;
+
+    padding-top: 20px;
+
+} 
+
+.ico_flash {
+
+    position: absolute;
+
+    left: 17px;
+
+    top: 5px;
+
+    bottom: 19px;
+
+    z-index: 9;
+
+}
+
+
+
+.ico_flash img {
+
+ width:53px !important;
+
+}
+
+.servicio1 img {
+
+  width: 100%;
+
+      border-radius: 20px;
+
+}
+
+.servicio2 img {
+
+  width: 100%;
+
+      border-radius: 20px;
+
+}
+
+.servicio3 img {
+
+  width: 100%;
+
+      border-radius: 20px;
+
+}
+
+.boton img {
+
+    width: 400px;
+
+
+
+}
+
+.franja3 {
+
+position: absolute;
+
+    display: block;
+
+    width: 870px;
+
+    margin-top: 100px;
+
+    height: 230px;
+
+    top: 210px;
+
+    padding: 35px;
+
+    font-weight: bold;
+
+        display: none;
+
+    z-index: 999999;
+
+    font-family: arial;
+
+    background-repeat: no-repeat;
+
+    background-size: contain;
+
+    background-image: url(https://www.flashdelivery.cl/img/franja.png);
+
+}
+
+.franja3 h1{
+
+font-size: 37px;
+
+    text-align: left;
+
+    padding-left: 50px;
+
+    font-weight: bold;
+
+    padding-bottom: 0;
+
+    margin-bottom: 0;
+
+}
+
+h3.titulo_banner1 {
+
+
+
+    font-size: 41px;
+
+    padding-top: 264px;
+
+    text-align: left;
+
+    margin-left: 110px;
+
+    width: 500px;
+
+    text-shadow: 2px 2px 2px black;
+
+
+
+}
+
+.franja3 h2{
+
+    font-size: 40px;
+
+    text-align: left;
+
+    padding-left: 51px;
+
+    font-weight: 300;
+
+    margin: 0;
+
+        display: none;
+
+        text-align: center;
+
+}
+
+span.p2 {
+
+    width: 100%;
+
+    display: block;
+
+    font-size: 31px;
+
+    font-weight: 400;
+
+        color: white;
+
+        text-align: center;
+
+}
+
+span.p3 {
+
+    width: 100%;
+
+    display: block;
+
+    font-size: 33px;
+
+    font-weight: bold;
+
+    margin-top: 20px;
+
+    margin-bottom: 11px;
+
+    text-transform: uppercase;
+
+        color: white;
+
+        text-align: center;
+
+}
+
+span.p4 {
+
+    width: 100%;
+
+    display: block;
+
+    font-size: 19px;
+
+    font-weight: bold;
+
+    color: #fdcb00;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+}
+
+.post-10 {
+
+background: #3680a9 !important;
+
+}
+
+.site-main-frontpage {
+
+    padding: 0px !important;
+
+}
+
+.site-header {
+
+    border-bottom: 0px solid #186ca0 !important;
+
+}
+
+.post-14 h2 {
+
+display: none;
+
+}
+
+.post-13  {
+
+    display: none;
+
+}
+
+.post-12 {
+
+    background: #f3f3f3 !important;
+
+}
+
+.post-12 h2 {
+
+    display: none !important;
+
+}
+
+.post-11 h2 {
+
+    display: none !important;
+
+}
+
+.post-103 {
+
+    width: 100% !important;
+
+    margin: 0 auto;
+
+        padding-top: 82px !important;
+
+    padding-bottom: 82px !important;
+
+}
+
+.post-103 h3 {
+
+    padding-bottom: 30px !important;
+
+}
+
+.busqueda {
+
+    width: 100%;
+
+    display: block;
+
+    position: relative;
+
+    background: #00acd7;
+
+    height: 110px;
+
+    text-align: center;
+
+        display: none;
+
+}
+
+.busqueda_boton {
+
+
+
+    margin: 0 auto;
+
+    color: #fff;
+
+    font-size: 32px;
+
+    padding-top: 26px;
+
+} 
+
+.busqueda_boton  img{
+
+    width: 184px;
+
+    margin-left: 30px;
+
+    opacity: 0.5;
+
+    transition: 1s;
+
+} 
+
+.busqueda_boton  img:hover {
+
+    width: 184px;
+
+    margin-left: 30px;
+
+    opacity: 0.9;
+
+    transition: 1s;
+
+} 
+
+.navbar-main {
+
+    position: fixed !important;
+
+    top: 0 !important;
+
+    left: 0 !important;
+
+    width: 100% !important;
+
+    display: flex !important;
+
+    justify-content: space-around !important;
+
+}
+
+nav.navbar-main {
+
+    background: transparent !important;
+
+    position: fixed !important;
+
+}
+
+nav.abajo {
+
+    background: #fff !important;
+
+
+
+}
+
+.logo {
+
+    background: url(https://flashdelivery.cl/img/flash-logo-blanco2.png);
+
+    width: 264px;
+
+    height: 85px;
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    margin-top: 29px;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.logo::before {
+
+    font-weight: bold;
+
+
+
+    margin-left: 160px;
+
+    font-size: 13px;
+
+    width: auto;
+
+    color: #ffffff;
+
+    border-left: 2px solid;
+
+    position: absolute;
+
+    padding-left: 14px;
+
+}
+
+nav.abajo .logo::before {
+
+    font-weight: bold;
+
+    margin-left: 160px;
+
+    font-size: 13px;
+
+    width: auto;
+
+    color: #000;
+
+    border-left: 2px solid;
+
+    position: absolute;
+
+    padding-left: 14px;
+
+}
+
+nav.abajo .logo {
+
+    background: url(https://flashdelivery.cl/img/flash-logo2_negro.png);
+
+    width: 242px;
+
+    height: 85px;
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    margin-top: 9px;
+
+}
+
+nav ul li a {
+
+color: #fff !important;
+
+}
+
+nav.abajo ul li a {
+
+color: #000 !important;
+
+}
+
+.post-138 .panel-up-content {
+
+
+
+}
+
+.post-138  {
+
+    background: url(https://flashdelivery.cl/img/camion_fondo.jpg);
+
+    background-size: cover;
+
+    background-position-x: right;
+
+    height: 577px;
+
+    padding-top: 80px;
+
+    padding-left: 100px;
+
+    color: #fff;
+
+}
+
+
+
+#panel3 {
+
+   display: none;
+
+}
+
+.post-138 h3 {
+
+    font-size: 33px;
+
+    line-height: 30px;
+
+    padding-bottom: 23px;
+
+}
+
+.post-11 li {
+
+    background: url(https://flashdelivery.cl/img/lista.png);
+
+    background-repeat: no-repeat;
+
+    padding-left: 37px;
+
+    background-size: 22px;
+
+    font-size: 13px;
+
+    text-align: justify;
+
+}
+
+.post-11 ::marker {
+
+    display: none !important;
+
+    font-size: 0px !important;
+
+}
+
+.post-138 ::marker {
+
+display: none !important;
+
+    font-size: 0px !important;
+
+}
+
+.post-138 li{
+
+background: url(https://flashdelivery.cl/flash4/img/ico_check.png);
+
+    background-repeat: no-repeat;
+
+    padding-left: 37px;
+
+    height: 32px;
+
+    background-size: 31px;
+
+}
+
+.navbar-main, .site-footer {
+
+    border-bottom: 0px solid #186ca0 !important;
+
+}
+
+#panel1, #panel3, #panel5, #sidebar-panel-partner {
+
+    background-color: #f0f0f0;
+
+    padding-bottom: 70px !important;
+
+}
+
+.site-footer {
+
+    background-color: #323232 !important;
+
+}
+
+.up_scrollup2 {
+
+    background-color: #186ca0;
+
+    border-radius: 0;
+
+    bottom: 0;
+
+    padding: 3px;
+
+    display: none;
+
+    height: 40px;
+
+    opacity: 1;
+
+    right: 60px;
+
+    text-align: center;
+
+    width: 60px;
+
+    overflow: hidden;
+
+    z-index: 9999;
+
+    color: #fff;
+
+    font-size: 1rem;
+
+    line-height: 1.9;
+
+}
+
+.titulo_slide {
+
+  animation-duration: 3s ;
+
+  animation-name: slidein ;
+
+}
+
+
+
+@keyframes slidein {
+
+  from {
+
+    margin-left: 100% ;
+
+    width: 300% 
+
+  }
+
+
+
+  to {
+
+    margin-left: 0% ;
+
+    width: 100% 
+
+  }
+
+}
+
+.n2-ss-item-image-content {
+
+
+
+}
+
+.n2-ss-item-image-content img {
+
+
+
+}
+
+.circular {
+
+    border-radius: 100%;
+
+}
+
+.n2-ss-slider .n2-ss-item-image-content img {
+
+    display: inline-block !important;
+
+    max-width: 100% !important;
+
+    border-radius: 140px !important;
+
+    width: 400px !important;
+
+    height: 200px !important;
+
+}
+
+
+
+footer .content_logo img {
+
+    width: 330px !important;
+
+    margin: 0 auto;
+
+    display: block;
+
+}
+
+.content_logo {
+
+    width: 100%;
+
+    position: relative;
+
+    border-bottom: 2px solid #3680a9;
+
+    padding-bottom: 50px;
+
+    padding-top: 40px;  
+
+}
+
+.has-text-align-center {
+
+    text-align: center !important;
+
+    font-size: 32px !important;
+
+    padding-bottom: 40px !important;
+
+    font-weight: 800 !important;
+
+    text-transform: uppercase !important;
+
+}
+
+#forms_movile{
+
+    display: none;
+
+}
+
+#forms {
+
+    display: block;
+
+}
+
+/*
+
+mobile
+
+*/
+
+@media only screen and (max-width: 900px) {
+    .logo_form {
+    position: absolute !important;
+    z-index: 9 !important;
+    right: 98px !important;
+    width: 367px;
+    top: 120px !important;
+    height: auto;
+    background: #ffffff;
+    padding: 13px;
+    display: none !important;
+    border-radius: 9px;
+}
+.puntos_tech p.ico1 {
+    color: #ffffff;
+    text-align: left;
+    background-image: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/caja.png);
+    background-repeat: no-repeat;
+    padding-left: 89px;
+    background-size: 65px;
+}
+.puntos_tech p.ico2 {
+    color: #ffffff;
+    text-align: left;
+    background-image: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/mail.png);
+    background-repeat: no-repeat;
+    padding-left: 89px;
+    background-size: 65px;
+}
+#forms_movile {
+
+    display: block;
+
+    background: black;
+
+    padding: 22px;
+
+}
+
+.page-id-505 #forms_movile {
+    display: none !important;
+}
+
+#forms_movile img {
+
+    width: 100%;
+
+}
+
+#forms  {
+
+    display: none;
+
+    }
+
+.n2-ss-slider {
+
+    z-index: 3;
+
+    position: relative;
+
+    text-align: left;
+
+    height: 300px !important;
+
+    width: 100%;
+
+    min-height: 1px;
+
+}
+
+.logo {
+
+    background: url(https://flashdelivery.cl/img/flash-logo-blanco.png);
+
+    width: auto;
+
+    height: 47px;
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    margin-top: -37px;
+
+}
+
+.slick-dotted.slick-slider ul.slick-dots {
+
+    display: none !important;
+
+}
+
+.slick-dotted.slick-slider {
+
+    margin-bottom: 30px !important;
+
+    margin-right: 0 !important;
+
+    margin-left: 0 !important;
+
+}
+
+nav.abajo .logo {
+
+    background: url(https://flashdelivery.cl/img/flash-logo-blanco.png);
+
+    width: auto;
+
+    height: 47px;
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    margin-top: -37px;
+
+}
+
+.n2-ss-slider .n2-ss-item-image-content img {
+
+    display: inline-block !important;
+
+    max-width: 100% !important;
+
+    border-radius: 140px !important;
+
+    width: 400px !important;
+
+    height: 200px !important;
+
+    padding-top: 70px !important;
+
+}
+
+.site-header {
+
+    border-bottom: 0px solid #186ca0 !important;
+
+    height: 981px;
+
+    background-color: #666666 !important;
+
+}
+
+#forms {
+
+    position: absolute !important;
+
+    z-index: 9 !important;
+
+    top: 364px !important;
+
+    margin: 0 auto;
+
+    width: 585px;
+
+}
+
+.navbar-white .navbar-toggler {
+
+    color: rgba(0,0,0,.55);
+
+    border-color: rgba(0,0,0,.1);
+
+    z-index: 99999999;
+
+}
+
+video.video {
+
+    width: 60%;
+
+    height: auto;
+
+    margin: 0 auto;
+
+    display: block;
+
+}
+
+
+
+.busqueda {
+
+    width: 100%;
+
+    display: none;
+
+    position: relative;
+
+    background: #00acd7;
+
+    height: 110px;
+
+    text-align: center;
+
+    height: 109px;
+
+}
+
+.busqueda_boton img {
+
+    width: 205px;
+
+    margin-left: 0;
+
+    opacity: 0.5;
+
+    transition: 1s;
+
+}
+
+.busqueda_boton img:hover {
+
+    width: 205px;
+
+    margin-left: 0;
+
+    opacity: 1;
+
+    transition: 1s;
+
+}
+
+span.p2 {
+
+    width: 100%;
+
+    display: block;
+
+    font-size: 31px;
+
+    font-weight: 400;
+
+    color: white;
+
+    text-align: center;
+
+    margin-top: 50px;
+
+}
+
+span.p4 {
+
+    width: 100%;
+
+    display: block;
+
+    font-size: 19px;
+
+    font-weight: bold;
+
+    color: #fdcb00;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    margin-bottom: 60px;
+
+}
+
+.post-138  {
+
+    background: url(https://flashdelivery.cl/flash4/img/fondo_mobile.jpg);
+
+    background-size: cover;
+
+	background-repeat: no-repeat;
+
+    height: 664px;
+
+    padding-top: 80px;
+
+    padding-left: 40px;
+
+    padding-bottom: 410px;
+
+}
+
+    .wp-block-media-text__media img, .wp-block-media-text__media video {
+
+    height: auto;
+
+    max-width: unset;
+
+    vertical-align: middle;
+
+    width: 26% !important;
+
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    .logo_form {
+        position: absolute !important;
+        z-index: 9 !important;
+        right: 98px !important;
+        width: 367px;
+        top: 120px !important;
+        height: auto;
+        background: #ffffff;
+        padding: 13px;
+        display: none !important;
+        border-radius: 9px;
+    }
+    .puntos_tech p.ico2 {
+        color: #ffffff;
+        text-align: left;
+        background-image: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/mail.png);
+        background-repeat: no-repeat;
+        padding-left: 89px;
+        background-size: 65px;
+    }
+    .puntos_tech p.ico1 {
+    color: #ffffff;
+    text-align: left;
+    background-image: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/caja.png);
+    background-repeat: no-repeat;
+    padding-left: 89px;
+    background-size: 65px;
+}
+
+.servicios_h {
+    height: 2070px !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.puntos_tech {
+    background-image: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/banner2-1.jpg);
+    height: auto !important;
+    padding: 60px;
+    background-size: cover;
+    background-position: center;
+}
+
+.n2-ss-slider {
+
+    z-index: 3;
+
+    position: relative;
+
+    text-align: left;
+
+    height: 300px !important;
+
+    width: 100%;
+
+    min-height: 1px;
+
+}
+
+.wp-block-media-text__media img, .wp-block-media-text__media video {
+
+    height: auto;
+
+    max-width: unset;
+
+    vertical-align: middle;
+
+    width: 80% !important;
+
+}
+
+.slick-dotted.slick-slider ul.slick-dots {
+
+    display: none !important;
+
+}
+
+.slick-dotted.slick-slider {
+
+    margin-bottom: 30px !important;
+
+    margin-right: 0 !important;
+
+    margin-left: 0 !important;
+
+}
+
+.logo {
+
+    background: url(https://flashdelivery.cl/img/flash-logo-blanco.png);
+
+    width: auto;
+
+    height: 72px;
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    margin-top: -66px;
+
+}
+
+nav.abajo .logo {
+
+    background: url(https://flashdelivery.cl/img/flash-logo2_negro.png);
+
+    width: auto;
+
+    height: 72px;
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    margin-top: -37px;
+
+}
+
+nav.abajo .logo::before {
+
+    font-weight: bold;
+
+    margin-left: 160px;
+
+    font-size: 13px;
+
+    width: auto;
+
+    color: #000;
+
+    border-left: 2px solid;
+
+    position: absolute;
+
+    padding-left: 14px;
+
+}
+
+.n2-ss-slider .n2-ss-item-image-content img {
+
+    display: inline-block !important;
+
+    max-width: 100% !important;
+
+    border-radius: 140px !important;
+
+    width: 400px !important;
+
+    height: 200px !important;
+
+    padding-top: 70px !important;
+
+}
+
+.site-header {
+
+    border-bottom: 0px solid #186ca0 !important;
+
+    height: auto;
+
+    background-color: #666666 !important;
+
+}
+
+#forms {
+
+    position: absolute !important;
+
+    z-index: 9 !important;
+
+    right: 8px !important;
+
+    top: 317px !important;
+
+    width: 340px;
+
+}
+
+.navbar-white .navbar-toggler {
+
+    color: rgba(0,0,0,.55);
+
+    border-color: rgba(0,0,0,.1);
+
+    z-index: 99999999;
+
+}
+
+.busqueda {
+
+    width: 100%;
+
+    display: none;
+
+    position: relative;
+
+    background: #00acd7;
+
+    height: 110px;
+
+    text-align: center;
+
+    height: 152px;
+
+}
+
+.busqueda_boton img {
+
+    width: 205px;
+
+    margin-left: 0;
+
+    opacity: 0.5;
+
+    transition: 1s;
+
+}
+
+.busqueda_boton img:hover {
+
+    width: 205px;
+
+    margin-left: 0;
+
+    opacity: 1;
+
+    transition: 1s;
+
+}
+
+span.p2 {
+
+    width: 100%;
+
+    display: block;
+
+    font-size: 31px;
+
+    font-weight: 400;
+
+    color: white;
+
+    text-align: center;
+
+    margin-top: 50px;
+
+}
+
+span.p4 {
+
+    width: 100%;
+
+    display: block;
+
+    font-size: 19px;
+
+    font-weight: bold;
+
+    color: #fdcb00;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    margin-bottom: 60px;
+
+}
+
+.post-138  {
+
+    background: url(https://flashdelivery.cl/img/fondo_mobile.jpg);
+
+    background-size: cover;
+
+  	background-repeat: no-repeat;
+
+    height: 664px;
+
+    padding-top: 80px;
+
+    padding-left: 40px;
+
+    padding-bottom: 410px;
+
+    color: #fff;
+
+}
+
+}
+
+.post-15 {
+    display: none;
+}
+.post-10 {
+    display: none;
+}
+.mod_img_1 {
+    background: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/img_ser1.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 100%;
+
+    transition: 1s;
+}
+.mod_img_2 {
+    background: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/servicio3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+    transition: 1s;
+}
+.mod_img_3 {
+    background: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/img_ser2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+    transition: 1s;
+}
+.mod_img_1:hover {
+    background: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/img_ser1.jpg);
+    background-size: 100%;
+    background-position: top;
+    height: 100%;
+
+    transition: 1s;
+}
+.mod_img_2:hover {
+    background: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/servicio3.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 100%;
+
+    transition: 1s;
+}
+.mod_img_3:hover {
+    background: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/img_ser2.jpg);
+    background-size: 100%;
+    background-position: bottom;
+    height: 100%;
+ 
+    transition: 1s;
+}
+.mod_img_1 img {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding-top: 50%;
+    width: 90px;
+}
+.mod_img_2 img{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding-top: 50%;
+    width: 90px;
+}
+.mod_img_3 img{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding-top: 49%;
+    width: 75px;
+}
+.servicios_h {
+    height: 540px;
+    position: relative;
+    overflow: hidden;
+}
+.caja_consulta {
+    background: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/fondo_pregunta.jpg);
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 70px;
+    color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    padding-top: 130px;
+}
+.caja_consulta h3 {
+  animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 7s; /* don't forget to set a duration! */
+      animation-delay: 2s;
+
+}
+.caja_consulta h2 {
+  animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 7s; /* don't forget to set a duration! */
+animation-delay: 2s;
+}
+.caja_consulta p {
+    animation: heartBeat infinite; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s; /* don't forget to set a duration! */
+    animation-delay: 10s;
+    color: #f0cb00;
+    font-weight: bold;
+    font-size: 30px;
+}
+.puntos_tech {
+    background-image: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/banner2-1.jpg);
+    height: 330px;
+    padding: 60px;
+    background-size: cover;
+    background-position: center;
+}
+.puntos_tech h2 {
+    text-align: center;
+    color: #ffffff;
+}
+.titulo_t {
+    margin-bottom: 30px;
+}
+.puntos_tech p.ico1 {
+    color: #ffffff;
+    text-align: left;
+    background-image: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/caja.png);
+    background-repeat: no-repeat;
+    padding-left: 90px;
+    background-size: contain;
+}
+.puntos_tech p.ico2 {
+    color: #ffffff;
+    text-align: left;
+    background-image: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/mail.png);
+    background-repeat: no-repeat;
+    padding-left: 90px;
+    background-size: contain;
+}
+h1.env {
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+    color: #0aa2df;
+    padding: 0;
+    margin: 0;
+}
+.logo_form {
+    position: absolute !important;
+    z-index: 9 !important;
+    right: 98px !important;
+    width: 367px;
+    top: 120px !important;
+    height: auto;
+    background: #ffffff;
+    padding: 13px;
+    border-radius: 9px;
+}
+.texto_bajada p {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.texto_bajada p {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.texto_bajada p {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.texto_bajada {
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 109px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.logo_form {
+    position: absolute !important;
+    z-index: 9 !important;
+    right: 98px !important;
+    width: 367px;
+    top: 120px !important;
+    height: auto;
+    background: #ffffff;
+    padding: 13px;
+    display: block;
+    border-radius: 9px;
+}
+.panel-image, .panel-image-up {
+    background-attachment: initial !important;
+    background-position: top !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dire img {
+    float: left;
+}
+.social-navigation {
+    clear: left;
+    float: left;
+    margin-bottom: 0;
+    width: 35%;
+    padding: 30px;
+    text-align: left !important;
+}
+@media only screen and (max-width: 450px) {
+    .logo_form {
+        position: absolute !important;
+        z-index: 9 !important;
+        right: 98px !important;
+        width: 367px;
+        top: 120px !important;
+        height: auto;
+        background: #ffffff;
+        padding: 13px;
+        display: none !important;
+        border-radius: 9px;
+    }
+        .texto_bajada {
+        background: rgba(0, 0, 0, 0.5);
+        min-height: 140px;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+    }   
+    .servicios_h {
+        height: 1440px !important;
+        position: relative;
+        overflow: hidden;
+    }
+    .puntos_tech {
+        background-image: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/banner2-1.jpg);
+        height: auto !important;
+        padding: 60px;
+        background-size: cover;
+        background-position: center;
+    }
+    .puntos_tech p.ico1 {
+        color: #ffffff;
+        text-align: left;
+        background-image: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/caja.png);
+        background-repeat: no-repeat;
+        padding-left: 89px;
+        background-size: 65px;
+}
+    .puntos_tech p.ico2 {
+        color: #ffffff;
+        text-align: left;
+        background-image: url(https://flashdelivery.cl/wp-content/themes/ice-cold/img/mail.png);
+        background-repeat: no-repeat;
+        padding-left: 89px;
+        background-size: 65px;
+    }
+}
+.sidebar-top {
+    background: #186ca0;
+    color: #fff !important;
+    padding: 10px 25px;
+    display: none !important;
+    font-size: .7em;
+}
+.wasap {
+    background: #00d75a;
+    display: table-cell;
+    padding: 11px;
+    position: fixed;
+    right: 0;
+    z-index: 99999;
+    border-radius: 19px 0 0 19px;
+    width: auto;
+    bottom: 150px;
+    opacity: 0.8;
+    transition: 1s;
+}
+.wasap:hover {
+    background: #00d75a;
+    display: table-cell;
+    padding: 11px;
+    position: fixed;
+    right: 0;
+    z-index: 99999;
+    border-radius: 19px 0 0 19px;
+    width: auto;
+    bottom: 150px;
+    opacity: 1;
+}
+.wasap img{
+    width: 30px;
+    height: 30px;
+}
+
+.page-id-505 .caja_consulta {
+    display: none;
+}
+.page-id-505 .puntos_tech {
+    display: none;
+}
+.page-id-505 .servicios_h {
+    display: none;
+}
+
+.page-id-505 #n2-ss-2 {
+    display: none;
+}
+.page-id-505 .logo_form {
+    display: none;
+}
+.page-id-505 #forms {
+    display: none;
+}
+.page-id-505 h1.entry-title{
+    display: none;
+}
+.page-id-505 .n2-section-smartslider {
+    position: relative;
+    top: -108px !important;
+}
+.page-id-505 .site-main-page {
+    padding: 0 !important;
+    background-color: #f5f5f5;
+}
+.site-main-page {
+    padding: 0;
+    background-color: #ffffff !important;
+}
+.page-content, .search-contant, .site-main-page .page, .site-main-page .post, .site-main-page .type-attachment {
+    background-color: #fff;
+    border: 0px solid #e9e9e9 !important;
+    border-radius: 0;
+    margin-bottom: 40px;
+    padding: 10px 15px 25px;
+    transition: all .4s ease 0s;
+}
+.form_postulacion {
+    padding: 20px;
+    background: #e6e6e6;
+    text-align: left;
+    border-radius: 10px;
+}
+.form_postulacion input.wpcf7-form-control {
+    background-color: #fff !important;
+    color: #000 !important;
+    font-size: 15px !important;
+    font-family: sans-serif;
+    margin-top: 7px;
+    border-radius: 0 !important;
+    width: 100%;
+}
+.form_postulacion label {
+    color: #333;
+    display: block;
+    font-weight: 100 !important;
+    margin-bottom: .5em;
+    word-break: break-all;
+}
+.form_postulacion input.wpcf7-submit {
+    background-color: #186ca0 !important;
+    color: #ffffff !important;
+}
+.form_postulacion h1 {
+    border-bottom: 1px solid;
+    padding-bottom: 18px;
+    margin-bottom: 39px;
+    font-size: 23px;
+    margin-top: 19px;
+    font-weight: 800;
+}
+.iconos_post p{
+    text-align: center;
+    font-size: 18px;
+    padding: 0 31px;
+}
+
+
+.page-id-541 .caja_consulta {
+    display: none;
+}
+.page-id-541 .puntos_tech {
+    display: none;
+}
+.page-id-541 .servicios_h {
+    display: none;
+}
+
+.page-id-541 #n2-ss-2 {
+    display: none;
+}
+.page-id-541 .logo_form {
+    display: none;
+}
+.page-id-541 #forms {
+    display: none;
+}
+.page-id-541 h1.entry-title{
+    display: none;
+}
+.page-id-541 .n2-section-smartslider {
+    position: relative;
+    top: -108px !important;
+}
+.page-id-541 .site-main-page {
+    padding: 0 !important;
+    background-color: #f5f5f5;
+}
+.iconos_post p{
+    text-align: center;
+    font-size: 18px;
+    padding: 0 31px;
+}
+.page-id-541 p{
+    text-align: center;
+    font-size: 15px;
+    padding: 0 31px;
+}
+.page-id-541 h2{
+    text-align: center;
+    font-size: 18px;
+    padding: 0 31px;
+    color: #186ca0 ;
+}
+.page-id-541 h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 0 31px;
+}
+.page-id-541 .has-text-align-center {
+    text-align: center !important;
+    font-size: 32px !important;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+}
