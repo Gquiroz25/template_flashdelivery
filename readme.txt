@@ -1,12 +1,10 @@
-=== Ice Cold ===
-Contributors: triopsi
-Donate link: https://www.paypal.me/triopsi
+=== Flash Delivery ===
+Contributors: Gonnzalo Quiroz
 Tested up to: 5.7
 Requires at least: 5.0
 Requires PHP: 5.6
 Stable tag: 1.0.9
-License: GPL-3.0-or-later
-License URI: https://www.gnu.org/licenses/license-list.html#GNUGPLv3
+
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-colors, custom-header, custom-background, featured-images, custom-menu, custom-logo, editor-style, footer-widgets, sticky-post, theme-options, threaded-comments, translation-ready, blog, portfolio, e-commerce
 
 == Description ==
@@ -17,16 +15,16 @@ A simple WordPress Theme. This Theme are full responsive and are maked with the 
 
 Manual installation
 
-1. Download the ''ice-cold.zip'' archiwe from WordPress repository on the computer.
+1. Download the ''flashdelivery.zip'' archiwe from WordPress repository on the computer.
 2. Unzip the archive
-3. Then Upload the ''ice-cold'' folder to the /wp-content/themes/ directory
+3. Then Upload the ''flashdelivery'' folder to the /wp-content/themes/ directory
 4. Activate the Theme through the ''Themes'' menu in WordPress
 5. Navigate to Appearance > Customize in your admin panel and customize to taste.
 
 Installation using ''Add New Theme''
 
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
-2. Type in Ice Cold in the search form and press the 'Enter' key on your keyboard.
+2. Type in flashdelivery in the search form and press the 'Enter' key on your keyboard.
 3. Click on the 'Activate' button to use your new theme right away.
 4. Navigate to Appearance > Customize in your admin panel and customize to taste.
 
